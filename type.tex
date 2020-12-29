@@ -1,7 +1,7 @@
 %	-------------------------------------------------------------------------------
 % 
 %
-%
+%		2020년 12월 29일 github에서 관리 시작
 %
 %
 %
@@ -73,7 +73,7 @@
 
 
 
-		% --------------------------------- 	page
+		% --------------------------------- page
 			\usepackage{afterpage}			% 다음페이지가 나온면 어떻게 하라는 명령 정의 패키지
 %			\usepackage{fullpage}			% 잘못 사용하면 다 흐트러짐 주의해서 사용
 %			\usepackage{pdflscape}			% 
@@ -164,8 +164,14 @@
 	
 	
 		% --------------------------------- 	문서 기본 사항 설정
-		\setcounter{secnumdepth}{3} 		% 문단 번호 깊이
+											% \chapter is level 0
+											% \section is level 1
+											% \subsection is level 2
+											% \subsubsection is level 3
+											% \paragraph is level 4
+											% \subparagraph is level 5	
 		\setcounter{tocdepth}{3} 			% 문단 번호 깊이
+		\setcounter{secnumdepth}{3} 		% 문단 번호 깊이
 		\setlength{\parindent}{0cm} 		% 문서 들여 쓰기를 하지 않는다.
 		
 
@@ -242,7 +248,7 @@
 		% --------------------------------- recommend  글자 색깔지정 명령
 		\newcommand{\red}		{\color{red}}			% 글자 색깔 지정
 		\newcommand{\blue}		{\color{blue}}		% 글자 색깔 지정
-		\newcommand{\black}	{\color{black}}		% 글자 색깔 지정
+		\newcommand{\black}		{\color{black}}		% 글자 색깔 지정
 		\newcommand{\superscript}[1]{${}^{#1}$}
 
 	
